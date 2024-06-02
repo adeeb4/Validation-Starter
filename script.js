@@ -89,10 +89,10 @@ messageError.innerHTML = '<i class="fas fa-check-circle"></i>';
 
 function validateForm(){
      if(!validateName() || !validatePhone() || !validateEmail() || !validateMessage()){
-submitError.style.display = 'block';
-submitError.innerHTML = 'Please fix error to submit';
-submitError.style.color = 'red';
-setTimeout(function(){submitError.style.display = 'none';}, 3000);
+submiterror.style.display = 'block';
+submiterror.innerHTML = 'Please fix error to submit';
+submiterror.style.color = 'red';
+setTimeout(function(){submiterror.style.display = 'none';}, 3000);
 return false;
 
  
